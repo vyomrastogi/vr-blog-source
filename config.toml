@@ -1,0 +1,12 @@
+baseURL = "/"
+languageCode = "en-US"
+title = "VR"
+theme = "hugo-theme-learn"
+publishDir = "public"
+
+[params]
+ author = "Vyom Rastogi"
+ disableBreadCrumb = false
+ showVisitedLinks = false
+ disableSearch = true
+ themeVariant = "blue"
