@@ -2,6 +2,7 @@
 title: "Introduction"
 menuTitle: Backend Developer Journey
 pre: "<b>1. </b>"
+weight: 1
 ---
 ## Backend Developer Roadmap 
 
