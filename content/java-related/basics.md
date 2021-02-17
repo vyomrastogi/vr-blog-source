@@ -15,7 +15,7 @@ Java is a high level programming language. Main characteristics include
 - platform/os independent
 - object-oriented
 - multi-threaded
-- portable (read-once-write-anywhere) etc.
+- portable etc.
 
 Java requires both *compiler* and *interpretor* to run.
 
