@@ -3,7 +3,7 @@ title: "PostgreSQL"
 date: 2020-08-03T00:16:39-04:00
 draft: false
 menuTitle: "PostgreSQL"
-weight: 3
+weight: 2
 ---
 #### Installation 
 Steps to install postgreSql in Ubuntu 20.04

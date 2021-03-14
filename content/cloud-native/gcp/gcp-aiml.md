@@ -1,8 +1,8 @@
 ---
-title: "Google Cloud Platform"
+title: "AI/ML Services"
 date: 2020-07-20T00:02:15-04:00
 draft: false
-weight: 2
+weight: 1
 ---
 
 ## GCP AI/ML Services 
