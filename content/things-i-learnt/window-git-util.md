@@ -1,4 +1,12 @@
-to run a git command on all folders in a directory in windows
+---
+title: "Windows Git Util"
+draft: false
+menuTitle: "Git Util"
+weight: 5
+---
+
+To run a git command on all folders in a directory in windows
+
 ```bat
 @echo off
 set /p git_command="Enter git command: "

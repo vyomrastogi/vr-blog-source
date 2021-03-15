@@ -1,3 +1,10 @@
+---
+title: "Elasticsearch Install Fest"
+draft: false
+menuTitle: "Install Elastic"
+weight: 3
+---
+
 ## How to Install Elasticsearch
 - install java jdk
   ` sudo yum install java-1.8.0-openjdk.x86_64 `
