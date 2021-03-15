@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes"
 menuTitle: Kubernetes
-weight: 1
+weight: 2
 ---
 
 Kubernetes

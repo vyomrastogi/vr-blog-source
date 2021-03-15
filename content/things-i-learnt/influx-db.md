@@ -5,8 +5,6 @@ menuTitle: "Influx DB"
 weight: 4
 ---
 
-# Influx DB 
-
 InfluxDB is a custom high-performance data store written specifically for time series data. 
 It allows for high throughput ingest, compression and real-time querying of that same data.
 
