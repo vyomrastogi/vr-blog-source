@@ -30,3 +30,25 @@ Main components of Kubernetes
 4. Controller
 5. Container Runtime
 6. kublet
+
+
+### Pods
+
+Pods are the smallest object that can be created in Kubernetes. 
+
+Sample configuration 
+
+```yaml
+#always present
+apiVersion: v1 
+kind: Pod
+metadata:
+  name: my-pod
+  labels:
+    app: myapp 
+    tier: backend
+spec: 
+  containers: 
+    - name: nginx-container
+      image: nginx
+```
