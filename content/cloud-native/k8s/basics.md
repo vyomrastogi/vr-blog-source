@@ -50,3 +50,6 @@ spec:
     - name: nginx-container
       image: nginx
 ```
+
+- To extract definition to a file : `kubectl get pod <pod-name> -o yaml > pod-definition.yaml`
+- `kubectl edit pod <pod-name>` command to edit pod properties.
