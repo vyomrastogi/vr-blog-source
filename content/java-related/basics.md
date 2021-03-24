@@ -21,10 +21,22 @@ Java requires both *compiler* and *interpretor* to run.
 
 The compiler converts the source code into byte code. The interpretor interprets this bytecode and excutes the application/logic. Since java is interpreted language, it is platform independent
 
+#### Java Editions 
+
+- Java Card : Smart card Edition, for chip cards 
+- Java ME : Micro Edition, for IOT devices, smart devices
+- Java SE : Standard Edition
+- Java MP : Micro Profile, a subset of Java EE with enough features to run microservices
+- Java EE : Enterprise Edition
+
+
+#### JVM Architecture
+
 **Java Virtual Machine** or *JVM* provides an environment to support execution of java bytecode. It compiles a *.java* file to *.class* which contains byte code understandable by the machine. 
 It is a specification which must be implemented by computer system.
 
-#### JVM Architecture
+
+java file -> {compiler} -> java byte code -> {run on java VM specific to OS to convert to native code} -> java .class file executes code 
 
 ```java
         Classloader
