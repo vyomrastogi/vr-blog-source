@@ -16,6 +16,7 @@ __Reason__ : jvm might need required certificates
 
 __Possible Solution__ : [SO-Solution](https://stackoverflow.com/questions/21076179/pkix-path-building-failed-and-unable-to-find-valid-certification-path-to-requ)
 
+---
 
 ### How to check for open ports in a unix machine
 
@@ -27,3 +28,16 @@ __Possible Solution__ : [SO-Solution](https://stackoverflow.com/questions/210761
   - `-p` - Show the PID and name of the listener’s process. This information is shown only if you run the command as root or sudo user.
 - `netstat -tnlp | grep :22` - to filter for particular ports
 
+---
+
+### How to switch java versions easily
+
+Nice discussion here : [so-link](https://stackoverflow.com/questions/21964709/how-to-set-or-change-the-default-java-jdk-version-on-macos)
+
+_excerpt_
+
+```shell
+alias java17="export JAVA_HOME=`/usr/libexec/java_home -v 17`; java -version"
+alias java11="export JAVA_HOME=`/usr/libexec/java_home -v 11`; java -version"
+alias java8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
+```
